@@ -1,0 +1,28 @@
+Las PWA (o progressive web apps) son aplicaciones que están mas cerca de ser una aplicación nativa en lugar de una página web, a pesar de que ambas se ejecutan en el navegador.
+
+Las PWAs no obstante hacen uso de una serie de técnicas por un lado, y características avanzadas que ofrecen los navegadores* que nos permiten tener mas control sobre el entorno y el sistema (No todos los navegadores tienen estas capacidades todavía).
+
+Que caracteriza a una PWA?
+
+- Carga rápida (Bundle Splitting, high performance)
+- Seguridad (HTTPS)
+- Responsive (Mobile first)
+- Offline (Network tunneling, cache, service workers)
+- Linkado absoluto (HTML5 History)
+- Web Manifest
+
+Que es Firebase?
+
+Firebase es una plataforma de Google que integra productos para desarrolladores, estos productos proveen funcionalidades concretas, pero pueden relacionarse entre sí para facilitarnos la vida en un sin fin de tópicos relacionados con la infraestructura. La idea central de Firebase es "Preocúpate de desarrollar la aplicación, Firebase se encarga del resto".
+
+En que nos puede ayudar Firebase a la hora de construir una PWA?
+
+- Proporciona herramientas para el despliegue y propagación de nuestra web app por una red de alta disponibilidad (CDN), todo a través de una conexión segura (HTTPS)
+
+- Nos facilita una infraestructura de base de datos documental con una interfaz de cliente para realizar consultas, pero hay mas:
+  - Esta herramienta funciona sobre web sockets y nos permite establecer una comunicación bidireccional con la base de datos, de modo que nuestras consultas se actualizan automáticamente cuando los datos cambian.
+  - Además, este cliente monitoriza el estado de la red y en caso de no poder sincronizar datos, compone una cola de operaciones que se irán despachando en orden una vez tengamos acceso de nuevo a la red.
+
+- Disponemos de la posibilidad de desplegar scripts en una plataforma serverless (esto se conoce cómo Cloud Functions), este código se puede ejecutar en un contexto seguro donde podemos realizar acciones al margen del cliente una vez invocadas.
+
+- A través de las herramientas de Firebase también podemos usar un cliente de mensajería que nos permite recibir notificaciones Push (WebPush a través de Firebase Cloud Messaging), esto nos facilita la tarea de enviar notificaciones al usuario que quedarán registradas en el sistema. 

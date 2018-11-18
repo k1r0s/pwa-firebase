@@ -1,0 +1,34 @@
+{
+  "name": "pwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "rm -rf ../static && webpack -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^5.5.4",
+    "preact": "^8.3.1",
+    "stylesheet-decorator": "^1.6.2"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-eslint": "8.2.3",
+    "babel-loader": "7.1.4",
+    "babel-plugin-transform-decorators-legacy": "1.3.5",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "css-loader": "^1.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-pwa-manifest": "^3.7.1",
+    "workbox-webpack-plugin": "^3.6.2"
+  }
+}

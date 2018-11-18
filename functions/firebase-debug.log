@@ -1,0 +1,17 @@
+[debug] [2018-10-14T14:40:35.517Z] ----------------------------------------------------------------------
+[debug] [2018-10-14T14:40:35.519Z] Command:       /home/k1r0s/.nvm/versions/node/v8.11.3/bin/node /home/k1r0s/.nvm/versions/node/v8.11.3/bin/firebase deploy
+[debug] [2018-10-14T14:40:35.520Z] CLI Version:   3.19.3
+[debug] [2018-10-14T14:40:35.520Z] Platform:      linux
+[debug] [2018-10-14T14:40:35.520Z] Node Version:  v8.11.3
+[debug] [2018-10-14T14:40:35.520Z] Time:          Sun Oct 14 2018 16:40:35 GMT+0200 (CEST)
+[debug] [2018-10-14T14:40:35.520Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-14T14:40:35.527Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-14T14:40:35.527Z] > authorizing via signed-in user
+[debug] [2018-10-14T14:40:35.529Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/af-talk-00  
+  
+ Sun Oct 14 2018 16:40:35 GMT+0200 (CEST)
+[debug] [2018-10-14T14:40:36.528Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-14T14:40:36.528Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/af-talk-00/tokens  
+  
+ Sun Oct 14 2018 16:40:36 GMT+0200 (CEST)

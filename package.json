@@ -1,0 +1,17 @@
+{
+  "name": "af-talk-00",
+  "version": "1.0.0",
+  "description": "",
+  "main": "functions/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pwa:serve": "cd pwa && npm run dev",
+    "pwa:build": "cd pwa && npm run build",
+    "deploy:all": "firebase deploy",
+    "deploy:hosting": "firebase deploy --only hosting",
+    "deploy:functions": "firebase deploy --only functions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
